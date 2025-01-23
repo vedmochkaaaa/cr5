@@ -324,3 +324,142 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.dogs{
+    width: 1920px;
+    height: 839px;
+    top: 1680px;
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.green-block{
+width: 1920px;
+    height: 774px;
+    border-radius: 50px;
+    background-color: #396448;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs{
+    width: 670px;
+    height: 74px;
+    display:flex;
+    gap: 10px;
+}
+
+.tabs2 {
+    display:flex;
+    border: 1px solid #396448;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    background: none;
+    justify-content: center;
+}
+
+.tabs2 a{
+    color: #396448;
+    font-size: 24px;
+    font-family: "Bebas Neue Bold", sans-serif;
+    text-decoration:none;
+}
+
+.tabs2:nth-child(1) {
+    width: 121px;
+    height: 74px;
+    background-color: #396448
+}
+
+.tabs2:nth-child(1) a{
+    color: #F9F4F0;
+    font-size: 24px;
+    font-family: "Bebas Neue Bold", sans-serif;
+    text-decoration:none;
+}
+
+.tabs2:nth-child(2) {
+    width: 139px;
+    height: 74px;
+}
+
+.tabs2:nth-child(3) {
+    width: 102px;
+    height: 74px;
+}
+.tabs2:nth-child(4) {
+    width: 248px;
+    height: 74px;
+}
+
+.dogs-photo {
+    width: 1341px;
+    height: 614px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-dogs h2{
+    width: 292px;
+    height: 82px;
+    display: flex;
+    font-size: 48px;
+    color: #F9F4F0;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+}
+.cards {
+    width: 1341px;
+    height: 370px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.caption {
+    width: 367px;
+    height: 68px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 28px;
+    z-index:1000;
+}
+
+.container-button1 {
+    width: 300px;
+    height: 82px;
+}
+
+.btn1 {
+    gap: 10px;
+    width: 300px;
+    height: 82px;
+    gap: 10px;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid #396448;
+    color: #396448;
+    font-size: 26px;
+    background-color: #F9F4F0;
+}
