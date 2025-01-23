@@ -772,12 +772,17 @@ width: 1920px;
 .faq{
     width: 1341px;
     height: 844px;
+    display: flex;
     top: 4861px;
-    position:absolute;
-    left:290px;
+    position: absolute;
+    left: 290px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
 .f-t h2{
+    text-align: center;
     width: 654px;
     height: 82px;
     font-size: 68px;
@@ -786,15 +791,18 @@ width: 1920px;
 }
 
 .f-t p{
+    text-align: center;
     width: 655px;
+    top: -30px;
     height: 50px;
+    position: relative;
     font-size: 18px;
     font-family: "Raleway";
     color: #272727;
 }
 
 .f-t1 p{
-    width: 843px;
+    width: 850px;
     height: 75px;
     font-size: 18px;
     font-family: "Raleway";
@@ -814,16 +822,49 @@ width: 1920px;
     height: 643px;
     gap:12px;
     display:flex;
+    flex-direction: column;
 }
 
 .question {
     background-color: #EFE9E3;
-    width: 1339px;
-    padding: 40px;
+    max-width: 1339px;
     border-radius: 30px;
     height: 219px;
-    gap: 40px;
+    justify-content: space-between;
+    padding:40px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
+
+.question1 {
+    display: flex;
+    background-color: #EFE9E3;
+    width: 1341px;
+    border-radius: 30px;
+    height: 94px;
+    border: 1px solid #AB8264;
+}
+
+.question-content{
+    display: flex;
+    padding: 30px 40px;
+    width: 1261px;
+    height: 34px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-content h3{
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
+    color: #272727;
+}
+
+.cirk img {
+    width: 34px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
