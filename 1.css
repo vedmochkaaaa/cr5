@@ -25,7 +25,7 @@
 
 .main {
     background-color:#F9F4F0;
-    box-sizing: border-box;
+  
     margin: 0;
     padding: 0;
     display: flex;
@@ -37,7 +37,6 @@
 }
 
 .header {
-    box-sizing: border-box;
     display: flex;
     width: 1340px;
     height:120px;
@@ -50,7 +49,6 @@
 }
 
 .navigation {
-    box-sizing: border-box;
     display: flex;
     width: 1018px;
     height:120px;
@@ -59,7 +57,6 @@
 }
 
 .container {
-    box-sizing: border-box;
     display: flex;
     width: 893px;
     height: 39px;
@@ -76,6 +73,8 @@
 }
 
 .header-text a{
+    font-size: 16px;
+    font-family: "Raleway";
     text-decoration: none;
     color: #272727;
 }
@@ -88,17 +87,19 @@
 }
 
 .header-text1 a{
+    font-size: 16px;
     z-index:10;
+    font-family: "Raleway";
     text-decoration: none;
     color: #F9F4F0
 }
 
 .telephone p{
-    box-sizing: border-box;
+  
     width: 223px;
     height: 54px;
     padding: 10px 14px 10px 14px;
-    font-size: 22px;
+    font-size: 28px;
     color: #F9F4F0;
     font-family: "Bebas Neue Bold";
     z-index: 10;
@@ -106,7 +107,7 @@
 }
 
 .banner {
-    box-sizing: border-box;
+  
     position:absolute;
     width: 1340px;
     height: 830px;
@@ -130,13 +131,12 @@
     top: 577px;
     position:absolute;
     font-size: 18px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
 }
 
 
 .frame {
     justify-content: center;
-    box-sizing: border-box;
     display: flex;
     width: 442px;
     height: 82px;
@@ -151,6 +151,11 @@
 
 }
 
+.frame {
+    font-size: 18px;
+    font-family: "Raleway";
+}
+
 .mask {
     width: 654px;
     height: 830px;
@@ -159,7 +164,7 @@
 }
 
 .container-button {
-    box-sizing: border-box;
+  
     display: flex;
     width: 473px;
     height: 82px;
@@ -169,7 +174,7 @@
 }
 
 .btn {
-   box-sizing: border-box;
+ 
    display: flex;
    position:relative;
    padding: 24px 40px 24px 40px;
@@ -210,7 +215,7 @@
 
 .text-center h1{
     color: #272727;
-    font-size: 46px;
+    font-size: 68px;
     font-family: "Bebas Neue Bold";
 }
 
@@ -264,13 +269,12 @@
 }
 
 .text-block {
-    width:419px;
-    height:155px;
-    padding: 48px 56px 48px 56px;
+    padding: 30px 38px 16px 30px
 }
 
 .text-block p{
-    font-size: 24px;
+    font-size: 28px;
+    font-family: "Raleway";
     color: #272727;
 }
 
@@ -299,6 +303,7 @@
     width: 336px;
     height: 88px;
     font-size: 18px;
+    font-family: "Raleway";
     color: #272727;
 }
 
@@ -324,6 +329,7 @@
 .block2 p{
     width: 226px;
     height: 88px;
+    font-family: "Raleway";
     font-size: 18px;
     color: #272727;
 }
@@ -388,8 +394,8 @@
 
 .tabs2 a{
     color: #396448;
-    font-size: 24px;
-    font-family: "Bebas Neue Bold", sans-serif;
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
     text-decoration:none;
 }
 
@@ -401,8 +407,8 @@
 
 .tabs2:nth-child(1) a{
     color: #F9F4F0;
-    font-size: 24px;
-    font-family: "Bebas Neue Bold", sans-serif;
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
     text-decoration:none;
 }
 
@@ -433,7 +439,7 @@
     width: 292px;
     height: 82px;
     display: flex;
-    font-size: 48px;
+    font-size: 68px;
     color: #F9F4F0;
     font-family: "Bebas Neue Bold";
     justify-content: center;
@@ -464,7 +470,8 @@
     position: absolute;
     bottom: 10px;
     left: 10px;
-    padding: 5px 10px;
+    padding: 5px 23px;
+    font-family: "Bebas Neue Bold";
     color: white;
     font-size: 28px;
     z-index:1000;
@@ -479,12 +486,11 @@
     width: 300px;
     height: 82px;
     font-family: "Bebas Neue Bold";
-    gap: 10px;
     position: absolute;
     border-radius: 20px;
     border: 1px solid #396448;
     color: #396448;
-    font-size: 26px;
+    font-size: 28px;
     background-color: #F9F4F0;
 }
 
@@ -553,8 +559,18 @@
 
 .info-text h3,
 .info-text p {
-    margin: 10px 10px;
+    margin: 10px 15px;
     color: #272727;
+}
+
+.info-text h3{
+    font-family: "Bebas Neue Bold";
+    font-size: 28px;
+}
+
+.info-text p{
+    font-family: "Raleway";
+    font-size: 18px;
 }
 
 .img-adv {
@@ -586,18 +602,22 @@
 }
 
 .dm-text {
-    width: 227px;
+    width: 330px;
     height: 57px;
     z-index: 1;
-    top: 3681px;
+    top: 3693px;
     left: 847px;
     display: flex;
     position: absolute;
+    align-items: center;
+    justify-content: center;
 }
 
-.dm-text h1{
+.dm-text h2{
+    font-size: 68px;
+    font-family: "Bebas Neue Bold";
     color:#EFE9E3;
-    width:227px;
+    width:330px;
     height: 57px;
 }
 
@@ -618,6 +638,7 @@
 }
 
 .tabs3 {
+    justify-content: center;
     display:flex;
     border: 1px solid #AB8264;
     padding: 20px;
@@ -628,8 +649,8 @@
 
 .tabs3 a{
     color: #AB8264;
-    font-size: 24px;
-    font-family: "Bebas Neue Bold", sans-serif;
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
     text-decoration:none;
 }
 
@@ -641,8 +662,8 @@
 
 .tabs3:nth-child(1) a{
     color: #F9F4F0;
-    font-size: 24px;
-    font-family: "Bebas Neue Bold", sans-serif;
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
     text-decoration:none;
 }
 
@@ -673,7 +694,7 @@
 }
 
 .description {
-    top: 177px;
+    top: 200px;
     width: 665px;
     left: 290px;
     height: 731px;
@@ -713,9 +734,26 @@
     flex-direction: column;
 }
 
-.d h3{
-    font-size: 20px;
+.d0 h3{
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
 }
+
+.d0 p{
+    font-size: 18px;
+    font-family: "Raleway";
+}
+
+.d h3{
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
+}
+
+.d p{
+    font-size: 18px;
+    font-family: "Raleway";
+}
+
 
 .d2 {
     width: 313px;
@@ -757,7 +795,7 @@
     width: 300px;
     height: 82px;
     position:absolute;
-    top: 4549px;
+    top: 4562px;
     left: 811px;
     gap:10px;
     border: 0px;
@@ -939,3 +977,700 @@
     display:flex;
     gap: 20px;
 }
+
+.news {
+    width: 1341px;
+    height: 888px;
+    top: 7050px;
+    left: 289px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.headline-text {
+   align-self: center;
+   font: 700 68px "Bebas Neue Bold";
+   color: #272727;
+   top:6844px;
+   left: 748px;
+   position: absolute;
+}
+
+.grid-news{
+   width: 1341px;
+   height: 888px;
+   gap: 30px;
+}
+
+.blogcard{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 656px;
+   height: 644px;
+   border-radius: 30px;
+}
+
+.dog-image-cover {
+   display: block;
+   max-width: 656px;
+   height: 379px;
+   border-radius: 30px;
+}
+
+.news-content{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   align-self: stretch;
+   justify-content: flex-start;
+   height: 262px;
+   background: #efe9e3;
+   border-radius: 30px;
+}
+
+.text-news1, .text-news2{
+    display: flex;
+    gap: 20px;
+    width: 656px;
+    padding: 0px 30px 0px;
+    align-items: center;
+}
+
+.text-news1 h3{
+   font: 700 28px/34px "Bebas Neue Bold";
+   text-align: left;
+}
+
+.text-news2 p{
+   align-self: stretch;
+   font-family:"Raleway";
+   font-size:21px;
+   color: #272727;
+   text-align: left;
+}
+
+.text-news3 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   align-self: stretch;
+   justify-content: space-between;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+}
+
+.t-n1 {
+   align-self: stretch;
+   padding: 0;
+   margin: 0;
+   font: 400 14px Raleway, sans-serif;
+   color: #ab8264;
+}
+
+.t-n{
+   padding: 0;
+   margin: 0;
+   font: 400 14px Raleway, sans-serif;
+   color: #ab8264;
+}
+
+.trends-article {
+   display: flex;
+   flex-direction: column;
+   gap: 22px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 655px;
+}
+
+.trends-card {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   width: 655px;
+   padding-right: 14px;
+   border-radius: 30px;
+}
+
+.poster-image1 {
+   display: block;
+   width: 343px;
+   max-width: initial;
+   height: 200px;
+   border-radius: 30px;
+   object-fit: contain;
+}
+
+.article-card {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   align-items: flex-start;
+   justify-content: center;
+   width: 312px;
+   height: 200px;
+   padding-right: 30px;
+   padding-left: 30px;
+   background: #efe9e3;
+   border-radius: 30px;
+}
+
+.text-style {
+   align-self: stretch;
+   padding: 0;
+   margin: 0;
+   font: 700 22px/26.5px "Bebas Neue", sans-serif;
+   color: #272727;
+   text-align: left;
+}
+
+.meta {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   align-items: center;
+   align-self: stretch;
+   justify-content: flex-start;
+   min-width: 252px;
+}
+
+.info-card {
+   padding: 0;
+   margin: 0;
+   font: 400 12px Inter, sans-serif;
+   color: #ab8264;
+}
+
+.horizontal {
+   width: 14px;
+   height: 1px;
+   border-top: 1px solid #ab8264;
+}
+
+.trends-ar {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   width: 655px;
+   padding-right: 20px;
+   border-radius: 30px;
+}
+
+.poster-image {
+   display: block;
+   width: 343px;
+   max-width: initial;
+   height: 200px;
+   border-radius: 30px;
+   object-fit: cover;
+}
+
+.btn-d2 {
+    width: 300px;
+    height: 82px;
+    position: absolute;
+    display: flex;
+    top: 7734px;
+    left: 810px;
+    gap: 10px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 24px 40px;
+    background-color: #396448;
+    z-index: 10;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form-container {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   width: 1340px;
+   left:289px;
+   top: 7882px;
+   position:absolute;
+   height: 684px;
+}
+
+.info-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.info-container1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   max-width: 657px;
+}
+
+.hero-title {
+   padding: 0;
+   margin: 0;
+   font: 700 68px "Bebas Neue Bold";
+   color: #272727;
+}
+
+.info-text-display-style {
+   align-self: stretch;
+   padding: 0;
+   margin: 0;
+   margin-top: 15px;
+   font: 400 18px/21.5px Raleway, sans-serif;
+   color: #272727;
+   text-align: center;
+}
+
+.contact-form-section {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: flex-start;
+   margin-top: 60px;
+}
+
+.contact-form-container1 {
+   padding-top: 23px;
+}
+
+.contact-form-layout {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.name-container, .email-section {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+
+.name-heading-text-style {
+   padding: 0;
+   margin: 0;
+   font: 700 18px Raleway;
+   color: #272727;
+}
+
+.name-heading-text-style {
+   padding: 0;
+   margin: 0;
+   font: 700 18px Raleway;
+   color: #272727;
+}
+
+.message-container {
+    padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.name-heading-text-style, .email-heading-text-style {
+   padding: 0;
+   margin: 0;
+   font: 700 18px Raleway;
+   color: #272727;
+}
+
+.message-container1 {
+      width: 657px;
+   height: 176px;
+   padding: 10px;
+   margin: 0;
+   font: 400 18px Raleway, sans-serif;
+   color: #ab8264;
+   background: #f9f4f0;
+   border: 2px solid #ab8264;
+   border-radius: 20px;
+   display: inline-block;
+}
+
+.image-container-with-clipping-mask {
+   display: block;
+   width: 654px;
+   max-width: initial;
+   height: 483px;
+   margin-left: 27px;
+   object-fit: cover;
+}
+
+.btn-d4 {
+    width: 300px;
+    height: 82px;
+    display: flex;
+    gap: 10px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 24px 40px;
+    background-color: #396448;
+    z-index: 10;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: "Bebas Neue Bold";
+    align-items: center;
+    justify-content: center;
+}
+
+.name-container1, .email-container{
+   width: 313px;
+    height: 72px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font: 400 18px Raleway;
+    color: #ab8264;
+    background: #f9f4f0;
+    border: 2px solid #ab8264;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 1920px;
+    height: 424px;
+    top: 8716px;
+    display:flex;
+    position: absolute;
+}
+
+.f-footer {
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 424px;
+    display: flex;
+    border-radius: 60px 60px 0px 0px;
+    background-color: #AB8264;
+}
+
+.footer-options {
+    gap: 40px;
+    width: 1338px;
+    height: 264px;
+    display: flex;
+}
+
+.footer-contact {
+    width: 420px;
+    height: 264px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:40px;
+
+}
+
+.footer-img{
+    width: 112px;
+    height: 209px;
+}
+
+.contact-info-section {
+     display: flex;
+      
+   flex-direction: column;
+   gap: 40px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 205px;
+}
+
+.contact-info-section1{
+    height: 26px;
+    align-items;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info-section2{
+    flex-direction: column;
+   gap: 6px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 205px;
+   display: flex;
+}
+
+.contact-info-section3 {
+    width: 205px;
+    height: 97px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-heading{
+   padding: 0;
+   margin: 0;
+   font: 700 24px "Bebas Neue Bold";
+   color: white;
+}
+
+.svg-container {
+    width: 26px;
+    height: 26px;
+}
+
+.email-contact-text-style{
+    width: 205px;
+    height: 26px;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: #FFFFFF;
+}
+
+.contact-info-container1{
+    width: 196px;
+    height: 26px;
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info-text{
+    width: 273px;
+       padding: 0;
+   margin: 0;
+    display: flex;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: #FFFFFF;
+}
+
+.offer-policy-section {
+    height: 127px;
+    flex-direction: column;
+    align-items: flex-start;
+   justify-content: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.flex-container-with-sv-gs{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.card-container{
+     width: 50px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.vertical-text-section {
+flex-direction: column;
+   gap: 20px;
+   align-items: flex-start;
+   display:flex;
+   justify-content: flex-start;
+}
+
+.flexbox-container-compact {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: 40px;
+   align-items: flex-start;
+   justify-content: flex-end;
+   width: 800px;
+}
+
+.vertical-menu-container1 {
+ 
+   display: flex;
+      
+   flex-direction: column;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 106px;
+}
+
+.hero-heading {
+      
+   padding: 0;
+   margin: 0;
+   font: 700 28px "Bebas Neue Bold";
+   color: #f9f4f0;
+}
+
+.vertical-menu-container {
+ 
+   display: flex;
+      
+   flex-direction: column;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 109px;
+}
+
+.phone-number-text-style {
+      
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+}
+
+.team-description-text-style {
+ 
+      
+   width: 109px;
+   padding: 0;
+   margin: 0;
+   font: 400 18px/25px Raleway;
+   color: #f9f4f0;
+   text-align: left;
+}
+
+.exhibition-title-text-style {
+ 
+      
+   width: 115px;
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+   text-align: left;
+}
+
+.news-heading {
+ 
+      
+   width: 196px;
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+   text-align: left;
+}
+
+.breed-menu-container {
+ 
+   display: flex;
+      
+   flex-direction: column;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 109px;
+}
+
+.puppy-menu-container1 {
+ 
+   display: flex;
+      
+   flex-direction: column;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 112px;
+}
+
+.puppy-info-card {
+ 
+      
+   width: 112px;
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+   text-align: left;
+}
+
+.memorial-card {
+ 
+      
+   width: 112px;
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+}
+
+.puppy-menu-container {
+ 
+   display: flex;
+      
+   flex-direction: column;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 112px;
+}
+
+.phone-number-text-style {
+      
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+}
+
+.news-heading {
+   width: 196px;
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+   text-align: left;
+}
+
+.breed-info-container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.heading-text-bold {
+   width: 201px;
+   padding: 0;
+   margin: 0;
+   font: 700 28px "Bebas Neue Bold";
+   color: #f9f4f0;
+   text-align: left;
+}
+
+.phone-number-text-style {
+   padding: 0;
+   margin: 0;
+   font: 400 18px Raleway;
+   color: #f9f4f0;
+}
+
